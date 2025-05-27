@@ -1,0 +1,71 @@
+# C/C++ compiled files
+*.o
+*.out
+*.exe
+*.app
+*.dll
+*.so
+*.dylib
+*.obj
+*.a
+*.lib
+*.lo
+*.la
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Binaries Directory
+bin/
+build/
+obj/
+dist/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependency directories
+node_modules/
+jspm_packages/
+vendor/
+
+# Specific to C++ projects
+cmake-build-debug/
+cmake-build-release/
+compile_commands.json
+
+# Unit test / coverage reports
+coverage/
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Profiling data
+*.prof
