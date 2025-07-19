@@ -14,10 +14,12 @@ unordered_map<char,char> mp = {{'(', ')'} , {'[', ']'}, {'{', '}'}};
             }
             // if not then it is the closing bracket
             // first match it with the top of the stack such that it corresponds to the closing bracket
-            else if(st.empty() || mp[st.top()] != s[i]){
+            else {if(st.empty() || mp[st.top()] != s[i]){
                 return false;
             }
             st.pop();
+        }
+            
         
 
         }
