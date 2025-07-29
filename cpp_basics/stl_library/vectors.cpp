@@ -36,6 +36,11 @@ int main(){
     // back() returns the last element of the vector
     cout<<arr.back()<<endl;
 
+    // rbegin() returns the iterator to the last element
+    cout<<*arr.rend()<<endl;
+
+    // rend() returns the iterator to the first element
+    cout<<*arr.rbegin()<<endl;
     // modifiers
     // push_back() adds elements to the last or end of the vector
     arr.push_back(20);
@@ -50,5 +55,9 @@ int main(){
     // erase() removes either a single element erase(iterator to that position) or a range of elements erase([first,last])
     arr.erase(arr.begin());
     cout<<arr.front()<<endl;
+    // clear() removes all the elements from the vector
+    arr.clear();
+    cout<<arr.empty()<<endl;
+
     return 0;
 }
