@@ -29,5 +29,8 @@ Base condition or case is hardcoding the answer for some values of the state(gen
 
 Transition : we call it a sub problem or a recursive call or transition, it basically shows how the state depends on other states to calculate
 its value  
+
+The time complexity for Recursion is 2^N
+
 */  
 
